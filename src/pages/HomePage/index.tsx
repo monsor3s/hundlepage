@@ -28,7 +28,6 @@ export class HomePage extends React.Component {
       Huddle re-imagines the way we build communities. You have <br/> a voice, but so does your audience.
       Create connections with<br/> your users as you engage in genuine discussion.
     </Span> 
-    <br/>
     <Button > Register </ Button> 
     <Footer > 
     <FontAwesomeIcon icon={fbLookup} className="fbLookup" />

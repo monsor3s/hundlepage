@@ -10,11 +10,11 @@ export const Container = styled.div`
     height: 100vh;
 
     grid-template-areas: 
-    "Logo Logo"
-    "Mockups H1"
-    "Mockups Span"
-    "Mockups Button"
-    "Footer Footer";
+    "logo logo"
+    "mockups h1grid"
+    "mockups spangrid"
+    "mockups button"
+    "footer footer";
 
     background-color: var(--violet);
 
@@ -26,9 +26,7 @@ export const Logo = styled.img `
     width: 12rem;
     height: 6rem;
 
-
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-area: logo;
     
     padding-top: 2rem;
     
@@ -42,25 +40,24 @@ export const BackgroundDesk = styled.img `
 
 export const Mockups = styled.img `
     z-index: 0;
-    width: 40rem;
+    width: 36rem;
     height: 30rem;
 
-    grid-column-start: 2;
-    grid-row-start: 3;
+    margin-top: 3rem;
+    grid-area: mockups;
 
 `;
 
 export const H1 = styled.h1 `
     z-index: 0;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
+    line-height: 3.5rem;
     font-family: Poppins;
     font-weight: 600;
     color: white;
 
-    margin-top: 2rem;
-
-    grid-column-start: 3;
-    grid-row-start: 3;
+    margin: 2rem 0 0 1rem;
+    grid-area: h1grid;
 
 `;
 
@@ -69,10 +66,9 @@ export const Span = styled.span `
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
-    margin-top: 11rem;
+    margin: 10rem 0 0 1rem;
 
-    grid-column-start: 3;
-    grid-row-start: 3;
+    grid-area: spangrid;
 
     color: rgb(230, 225, 225);
 `;
@@ -83,14 +79,13 @@ export const Button = styled.button `
     border: none;
     z-index: 0;
 
-    margin-top: 18rem;
+    margin: 16.5rem 0 0 1rem;
     
     font-size: 0.85rem;
     font-family: Poppins;
     font-weight: 400;
 
-    grid-column-start: 3;
-    grid-row-start: 3;
+    grid-area: button;
 
     background-color: #fff;
     color: var(--violet);
@@ -109,10 +104,8 @@ export const Footer = styled.div `
     z-index: 0;
     width: 35rem;
 
-    grid-column-start: 3;
-    grid-row-start: 4;
+    grid-area: footer;
 
-   
     display: flex;
     justify-content: flex-end;
 
