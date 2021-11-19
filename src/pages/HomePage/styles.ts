@@ -8,25 +8,22 @@ export const Container = styled.div`
     grid-template-rows: 2rem repeat(3, 1fr) 2rem;
     width: 100vw;
     height: 100vh;
-
-    grid-template-areas: 
-    "logo logo"
-    "mockups h1grid"
-    "mockups spangrid"
-    "mockups button"
-    "footer footer";
-
     background-color: var(--violet);
 
+    @media only screen and (max-width: 768px) {
+        
+    }
 `;
 
 export const Logo = styled.img `
     position: absolute;
     z-index: 0;
-    width: 12rem;
-    height: 6rem;
+    width: 10rem;
+    height: 5rem;
 
-    grid-area: logo;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
     
     padding-top: 2rem;
     
@@ -42,9 +39,10 @@ export const Mockups = styled.img `
     z-index: 0;
     width: 36rem;
     height: 30rem;
-
     margin-top: 3rem;
-    grid-area: mockups;
+
+    grid-column-start: 2;
+    grid-row-start: 3;
 
 `;
 
@@ -55,9 +53,10 @@ export const H1 = styled.h1 `
     font-family: Poppins;
     font-weight: 600;
     color: white;
-
     margin: 2rem 0 0 1rem;
-    grid-area: h1grid;
+
+    grid-column-start: 3;
+    grid-row-start: 3;
 
 `;
 
@@ -68,7 +67,8 @@ export const Span = styled.span `
 
     margin: 10rem 0 0 1rem;
 
-    grid-area: spangrid;
+    grid-column-start: 3;
+    grid-row-start: 3;
 
     color: rgb(230, 225, 225);
 `;
@@ -85,7 +85,8 @@ export const Button = styled.button `
     font-family: Poppins;
     font-weight: 400;
 
-    grid-area: button;
+    grid-column-start: 3;
+    grid-row-start: 3;
 
     background-color: #fff;
     color: var(--violet);
@@ -104,7 +105,8 @@ export const Footer = styled.div `
     z-index: 0;
     width: 35rem;
 
-    grid-area: footer;
+    grid-column-start: 3;
+    grid-row-start: 4;
 
     display: flex;
     justify-content: flex-end;
