@@ -5,7 +5,7 @@ import { IconLookup, library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab, faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-import { BackgroundDesk, Button, Container, Footer, H1, Logo, Mockups, Span } from './styles';
+import { BackgroundDesk, Button, Container, ContainerBox, Footer, H1, Logo, Mockups, Span } from './styles';
 import backgroundDesk from '../../assets/bg-desktop.svg';
 import logo from '../../assets/logo.svg';
 import mockups from '../../assets/illustration-mockups.svg';
@@ -20,6 +20,7 @@ export class HomePage extends React.Component {
     render() {
       return (
     <Container >
+    <ContainerBox >
     <BackgroundDesk src={ backgroundDesk } alt="Fundo" />
     <Logo src={logo} alt="Logo header" />
     <Mockups src={mockups} alt="Imagem Mockups" />
@@ -34,8 +35,8 @@ export class HomePage extends React.Component {
     <FontAwesomeIcon icon={ttLookup} className="ttLookup" />
     <FontAwesomeIcon icon={instLookup} className="instLookup" />
     </Footer>
-    </Container>
-
+    </ContainerBox>
+    </Container>    
   );
 }
 }

@@ -1,14 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    width: 100vw;
+    height: 100vh;
     position: relative;
+    display: flex;
+`;
+
+export const ContainerBox = styled.div`
+    position: relative;
+    overflow: hidden;
     z-index: 1;
     display: grid;
     grid-template-columns: 2rem repeat(2, 1fr) 2rem;
     grid-template-rows: 2rem repeat(3, 1fr) 2rem;
-    width: 100vw;
-    height: 100vh;
-
+    width: 1440px;
+    height: 900px;
     background-color: var(--violet);
 
 `;
@@ -22,14 +29,15 @@ export const Logo = styled.img `
     grid-column-start: 2;
     grid-column-end: 4;
     
-    padding-top: 2rem;
-    
 `;
 
 export const BackgroundDesk = styled.img `
     opacity: 0.6;
     width: 100vw;
-    height: 100vh;
+    height: 100vh; 
+    @media only screen and (min-width: 375px) {
+        
+    }
 `;
 
 export const Mockups = styled.img `
@@ -39,7 +47,6 @@ export const Mockups = styled.img `
 
     grid-column-start: 2;
     grid-row-start: 3;
-    margin-top: 3rem;
 
 `;
 
@@ -53,7 +60,6 @@ export const H1 = styled.h1 `
 
     grid-column-start: 3;
     grid-row-start: 3;
-    margin: 2rem 0 0 1rem;
 
 `;
 
@@ -62,7 +68,7 @@ export const Span = styled.span `
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
-    margin: 10rem 0 0 1rem;
+    margin: 8rem 0 0;
 
     grid-column-start: 3;
     grid-row-start: 3;
@@ -76,7 +82,7 @@ export const Button = styled.button `
     border: none;
     z-index: 0;
 
-    margin: 16.5rem 0 0 1rem;
+    margin: 15rem 0 0;
     
     font-size: 0.85rem;
     font-family: Poppins;
