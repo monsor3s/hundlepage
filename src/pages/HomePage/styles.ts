@@ -9,13 +9,6 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
 
-    grid-template-areas: 
-    "logo logo"
-    "mockups h1grid"
-    "mockups spangrid"
-    "mockups button"
-    "footer footer";
-
     background-color: var(--violet);
 
 `;
