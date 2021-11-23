@@ -7,6 +7,7 @@ export default createGlobalStyle`
   margin: 0;
   box-sizing: border-box;
   outline: 0;
+  font-size: 62.5%;
 }
 
 :root {

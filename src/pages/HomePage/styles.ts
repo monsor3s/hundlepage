@@ -12,10 +12,11 @@ export const ContainerBox = styled.div`
     overflow: hidden;
     z-index: 1;
     display: grid;
-    grid-template-columns: 2rem repeat(2, 1fr) 2rem;
-    grid-template-rows: 2rem repeat(3, 1fr) 2rem;
-    width: 1440px;
-    height: 900px;
+    grid-template-columns: 4rem repeat(2, 1fr) 4rem;
+    grid-template-rows: 4rem repeat(7, 1fr) 4rem;
+    grid-column-gap: 20px;
+    width: 100vw;
+    height: 100vh;
     background-color: var(--violet);
 
 `;
@@ -23,12 +24,10 @@ export const ContainerBox = styled.div`
 export const Logo = styled.img `
     position: absolute;
     z-index: 0;
-    width: 12rem;
-    height: 6rem;
+    width: 150px;
+    height: 60px;
 
-    grid-column-start: 2;
-    grid-column-end: 4;
-    
+    grid-area: 2 / 2;
 `;
 
 export const BackgroundDesk = styled.img `
@@ -42,43 +41,39 @@ export const BackgroundDesk = styled.img `
 
 export const Mockups = styled.img `
     z-index: 0;
-    width: 36rem;
-    height: 30rem;
+    width: 700px;
+    height: 500px;
 
-    grid-column-start: 2;
-    grid-row-start: 3;
-
+    grid-area: 3 / 2;
 `;
 
 export const H1 = styled.h1 `
     z-index: 0;
-    font-size: 2.6rem;
-    line-height: 3.5rem;
+    font-size: 45px;
+    line-height: 50px;
     font-family: Poppins;
     font-weight: 600;
     color: white;
 
-    grid-column-start: 3;
-    grid-row-start: 3;
+    grid-area: 3 / 3;
 
 `;
 
 export const Span = styled.span `
-    font-size: 1.2rem;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
     margin: 8rem 0 0;
 
-    grid-column-start: 3;
-    grid-row-start: 3;
+    grid-area: 3 / 3;
 
     color: rgb(230, 225, 225);
 `;
 
 export const Button = styled.button `
-    width: 10rem;
-    height: 2.7rem;
+    width: 100px;
+    height: 27px;
     border: none;
     z-index: 0;
 
@@ -88,8 +83,7 @@ export const Button = styled.button `
     font-family: Poppins;
     font-weight: 400;
 
-    grid-column-start: 3;
-    grid-row-start: 3;
+    grid-area: 3 / 3;
 
     background-color: #fff;
     color: var(--violet);
@@ -106,13 +100,13 @@ export const Button = styled.button `
 export const Footer = styled.div `
     position: absolute;
     z-index: 0;
-    width: 35rem;
+    width: 680px;
 
-    grid-column-start: 3;
-    grid-row-start: 4;
+    grid-area: 3 / 3;
 
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
 
     .fbLookup,
     .ttLookup,
