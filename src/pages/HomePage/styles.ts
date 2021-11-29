@@ -14,7 +14,6 @@ export const ContainerBox = styled.div`
     display: grid;
     grid-template-columns: 4rem repeat(2, 1fr) 4rem;
     grid-template-rows: 4rem repeat(7, 1fr) 4rem;
-    grid-column-gap: 20px;
     width: 100vw;
     height: 100vh;
     background-color: var(--violet);
@@ -43,6 +42,7 @@ export const Mockups = styled.img `
     z-index: 0;
     width: 700px;
     height: 500px;
+    margin-top: 10rem;
 
     grid-area: 3 / 2;
 `;
