@@ -55,6 +55,8 @@ export const H1 = styled.h1 `
     font-weight: 600;
     color: white;
 
+    margin: 150px 0 0 70px;
+
     grid-area: 3 / 3;
 
 `;
@@ -64,7 +66,8 @@ export const Span = styled.span `
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
-    margin: 8rem 0 0;
+    margin: 280px 0 0 70px;
+
 
     grid-area: 3 / 3;
 
@@ -72,14 +75,14 @@ export const Span = styled.span `
 `;
 
 export const Button = styled.button `
-    width: 100px;
-    height: 27px;
+    width: 140px;
+    height: 38px;
     border: none;
     z-index: 0;
 
-    margin: 15rem 0 0;
+    margin: 380px 0 0 70px;
     
-    font-size: 0.85rem;
+    font-size: 1.2rem;
     font-family: Poppins;
     font-weight: 400;
 
@@ -111,12 +114,12 @@ export const Footer = styled.div `
     .fbLookup,
     .ttLookup,
     .instLookup {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
         color: white;
         border: 1px solid #fff;
         border-radius: 2rem;
-        padding: 5px;
+        padding: 6px;
 
         margin: 5px;
 
