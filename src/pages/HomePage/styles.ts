@@ -18,6 +18,11 @@ export const ContainerBox = styled.div`
     height: 100vh;
     background-color: var(--violet);
 
+    @media only screen and (min-width: 375px) {
+        display: grid;
+        grid-template-columns: 2rem 1fr 2rem;
+        grid-template-rows: 2rem repeat(7, 1fr) 2rem; 
+    }
 `;
 
 export const Logo = styled.img `
@@ -27,14 +32,18 @@ export const Logo = styled.img `
     height: 60px;
 
     grid-area: 2 / 2;
+    @media only screen and (min-width: 375px) {
+        
+    }
 `;
 
 export const BackgroundDesk = styled.img `
     opacity: 0.6;
     width: 100vw;
     height: 100vh; 
+
     @media only screen and (min-width: 375px) {
-        
+        display: block;
     }
 `;
 
@@ -45,6 +54,11 @@ export const Mockups = styled.img `
     margin-top: 10rem;
 
     grid-area: 3 / 2;
+
+    @media only screen and (min-width: 375px) {
+        width: 300px;
+        height: 350px;
+    }
 `;
 
 export const H1 = styled.h1 `
@@ -59,6 +73,9 @@ export const H1 = styled.h1 `
 
     grid-area: 3 / 3;
 
+    @media only screen and (min-width: 375px) {
+        font-size: 30px;
+    }
 `;
 
 export const Span = styled.span `
@@ -72,6 +89,10 @@ export const Span = styled.span `
     grid-area: 3 / 3;
 
     color: rgb(230, 225, 225);
+
+    @media only screen and (min-width: 375px) {
+        font-size: 10px;
+    }
 `;
 
 export const Button = styled.button `
@@ -98,6 +119,10 @@ export const Button = styled.button `
         background-color: var(--magenta);
         color: #fff;
     }
+
+    @media only screen and (min-width: 375px) {
+
+        }
 `;
 
 export const Footer = styled.div `
