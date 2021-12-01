@@ -13,7 +13,7 @@ export const ContainerBox = styled.div`
     z-index: 1;
     display: grid;
     grid-template-columns: 4rem repeat(2, 1fr) 4rem;
-    grid-template-rows: 4rem repeat(7, 1fr) 4rem;
+    grid-template-rows: 4rem repeat(3, 1fr) 4rem;
     width: 100vw;
     height: 100vh;
     background-color: var(--violet);
@@ -100,9 +100,9 @@ export const Button = styled.button `
 export const Footer = styled.div `
     position: absolute;
     z-index: 0;
-    width: 680px;
+    width: calc(100% - 40px);
 
-    grid-area: 3 / 3;
+    grid-area: 4 / 3;
 
     display: flex;
     justify-content: flex-end;
@@ -111,12 +111,12 @@ export const Footer = styled.div `
     .fbLookup,
     .ttLookup,
     .instLookup {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
         color: white;
         border: 1px solid #fff;
         border-radius: 2rem;
-        padding: 7px;
+        padding: 5px;
 
         margin: 5px;
 
