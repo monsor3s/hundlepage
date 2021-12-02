@@ -29,7 +29,8 @@ export const Logo = styled.img `
     width: 180px;
     height: 100px;
 
-    grid-area: 2 / 2;
+    grid-area: 1 / 2;
+
     @media only screen and (min-width: 375px) {
         
     }
@@ -46,7 +47,7 @@ export const BackgroundDesk = styled.img `
 
 export const Mockups = styled.img `
     z-index: 0;
-    width: 600px;
+    width: 680px;
     height: 500px;
 
     grid-area: 3 / 2;
@@ -65,7 +66,7 @@ export const H1 = styled.h1 `
     color: white;
     margin-top: 3rem;
 
-    margin: 150px 0 0 70px;
+    margin: 50px 0 0 70px;
 
     grid-area: 3 / 3;
 
@@ -80,7 +81,7 @@ export const Span = styled.span `
     font-weight: 400;
     margin-top: 10rem;
 
-    margin: 280px 0 0 70px;
+    margin: 180px 0 0 70px;
 
 
     grid-area: 3 / 3;
@@ -95,14 +96,12 @@ export const Span = styled.span `
 export const Button = styled.button `
     width: 140px;
     height: 38px;
-    width: 130px;
-    height: 30px;
     border: none;
     z-index: 0;
 
-    margin: 380px 0 0 70px;
+    margin: 280px 0 0 70px;
     
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: Poppins;
     font-weight: 400;
 
@@ -127,23 +126,22 @@ export const Button = styled.button `
 export const Footer = styled.div `
     position: relative;
     z-index: 0;
-    width: calc(100% - 40px);
+    width: calc(100% - 30px);
 
     grid-area: 4 / 3;
 
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
 
     .fbLookup,
     .ttLookup,
     .instLookup {
-        width: 20px;
-        height: 20px;
+        width: 3rem;
+        height: 3rem;
         color: white;
         border: 1px solid #fff;
-        border-radius: 1rem;
-        padding: 4px;
+        border-radius: 2rem;
+        padding: 6px;
 
         margin: 5px;
 
