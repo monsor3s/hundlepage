@@ -18,18 +18,28 @@ export const ContainerBox = styled.div`
     height: 100vh;
     background-color: var(--violet);
 
+<<<<<<< Updated upstream
     @media only screen and (min-width: 375px) {
         display: grid;
         grid-template-columns: 2rem 1fr 2rem;
         grid-template-rows: 2rem repeat(7, 1fr) 2rem; 
+=======
+    @media only screen and (max-width: 375px) {
+        
+>>>>>>> Stashed changes
     }
 `;
 
 export const Logo = styled.img `
     position: absolute;
     z-index: 0;
+<<<<<<< Updated upstream
     width: 150px;
     height: 60px;
+=======
+    width: 180px;
+    height: 100px;
+>>>>>>> Stashed changes
 
     grid-area: 2 / 2;
     @media only screen and (min-width: 375px) {
@@ -41,33 +51,56 @@ export const BackgroundDesk = styled.img `
     opacity: 0.6;
     width: 100vw;
     height: 100vh; 
+<<<<<<< Updated upstream
 
     @media only screen and (min-width: 375px) {
         display: block;
+=======
+    @media only screen and (max-width: 375px) {
+        transform: rotate(270deg);
+>>>>>>> Stashed changes
     }
 `;
 
 export const Mockups = styled.img `
     z-index: 0;
+<<<<<<< Updated upstream
     width: 700px;
     height: 500px;
     margin-top: 10rem;
+=======
+    width: 600px;
+    height: 500px;
+>>>>>>> Stashed changes
 
     grid-area: 3 / 2;
 
+<<<<<<< Updated upstream
     @media only screen and (min-width: 375px) {
         width: 300px;
         height: 350px;
     }
+=======
+    @media only screen and (max-width: 375px) {
+        width: 15rem;
+        height: 10rem;
+}
+>>>>>>> Stashed changes
 `;
 
 export const H1 = styled.h1 `
     z-index: 0;
+<<<<<<< Updated upstream
     font-size: 45px;
     line-height: 50px;
+=======
+    font-size: 4.3rem;
+    line-height: 4.8rem;
+>>>>>>> Stashed changes
     font-family: Poppins;
     font-weight: 600;
     color: white;
+    margin-top: 3rem;
 
     margin: 150px 0 0 70px;
 
@@ -79,12 +112,20 @@ export const H1 = styled.h1 `
 `;
 
 export const Span = styled.span `
+<<<<<<< Updated upstream
     font-size: 20px;
+=======
+    font-size: 2rem;
+>>>>>>> Stashed changes
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    margin-top: 10rem;
 
+<<<<<<< Updated upstream
     margin: 280px 0 0 70px;
 
+=======
+>>>>>>> Stashed changes
 
     grid-area: 3 / 3;
 
@@ -96,8 +137,13 @@ export const Span = styled.span `
 `;
 
 export const Button = styled.button `
+<<<<<<< Updated upstream
     width: 140px;
     height: 38px;
+=======
+    width: 130px;
+    height: 30px;
+>>>>>>> Stashed changes
     border: none;
     z-index: 0;
 
@@ -126,9 +172,12 @@ export const Button = styled.button `
 `;
 
 export const Footer = styled.div `
-    position: absolute;
+    position: relative;
     z-index: 0;
+<<<<<<< Updated upstream
     width: calc(100% - 40px);
+=======
+>>>>>>> Stashed changes
 
     grid-area: 4 / 3;
 
@@ -139,12 +188,21 @@ export const Footer = styled.div `
     .fbLookup,
     .ttLookup,
     .instLookup {
+<<<<<<< Updated upstream
         width: 3rem;
         height: 3rem;
         color: white;
         border: 1px solid #fff;
         border-radius: 2rem;
         padding: 6px;
+=======
+        width: 20px;
+        height: 20px;
+        color: white;
+        border: 1px solid #fff;
+        border-radius: 1rem;
+        padding: 4px;
+>>>>>>> Stashed changes
 
         margin: 5px;
 
