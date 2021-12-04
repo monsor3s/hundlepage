@@ -18,7 +18,7 @@ export const ContainerBox = styled.div`
     height: 100vh;
     background-color: var(--violet);
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (max-width: 375px) {
         
     } 
 `;
@@ -31,7 +31,7 @@ export const Logo = styled.img `
 
     grid-area: 1 / 2;
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (max-width: 375px) {
         
     }
 `;
@@ -52,7 +52,7 @@ export const Mockups = styled.img `
 
     grid-area: 3 / 2;
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (max-width: 375px) {
         
     }
 `;
@@ -70,7 +70,7 @@ export const H1 = styled.h1 `
 
     grid-area: 3 / 3;
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (max-width: 375px) {
         
     }
 `;
@@ -88,7 +88,7 @@ export const Span = styled.span `
 
     color: rgb(230, 225, 225);
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (max-width: 375px) {
         
     }
 `;
@@ -118,7 +118,7 @@ export const Button = styled.button `
         color: #fff;
     }
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (max-width: 375px) {
 
         }
 `;
