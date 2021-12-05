@@ -87,6 +87,7 @@ export const H1 = styled.h1 `
         margin: 10px 0 0 0;
         line-height: 35px;
         z-index: 1;
+        text-align: center;
     }
 `;
 
