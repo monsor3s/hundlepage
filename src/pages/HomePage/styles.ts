@@ -22,11 +22,12 @@ export const ContainerBox = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
     } 
 `;
 
 export const Logo = styled.img `
-    position: absolute;
+    position: relative;
     z-index: 0;
     width: 180px;
     height: 100px;
@@ -35,7 +36,9 @@ export const Logo = styled.img `
 
     @media only screen and (max-width: 375px) {
         position: relative;
-        flex-direction: flex-start;
+        margin: 0px 180px 20px 0;
+        width: 120px;
+        height: 40px;
     }
 `;
 
@@ -46,6 +49,8 @@ export const BackgroundDesk = styled.img `
     @media only screen and (max-width: 375px) {
         transform: rotate(270deg);
         position: absolute;
+        z-index: 0;
+
     }
 `;
 
@@ -79,8 +84,9 @@ export const H1 = styled.h1 `
 
     @media only screen and (max-width: 375px) {
         font-size: 25px;
-        margin: 50px 0 0 0;
+        margin: 10px 0 0 0;
         line-height: 35px;
+        z-index: 1;
     }
 `;
 
@@ -98,7 +104,14 @@ export const Span = styled.span `
     color: rgb(230, 225, 225);
 
     @media only screen and (max-width: 375px) {
-        
+        br {
+            display: none;
+        }
+
+        z-index: 1;
+        margin: 20px 0px 20px 0px;
+        font-size: 1.5rem;
+        text-align: center;
     }
 `;
 
@@ -128,7 +141,8 @@ export const Button = styled.button `
     }
 
     @media only screen and (max-width: 375px) {
-
+        margin: 0;
+        width: 180px;
         }
 `;
 
@@ -159,6 +173,13 @@ export const Footer = styled.div `
             border: 1px solid var(--magenta);
             cursor: pointer;
     }
+    }
+
+    @media only screen and (max-width: 375px) {
+        position: relative;
+        justify-content: center;
+        margin: 40px 0 0 0;
+
     }
 `;
 

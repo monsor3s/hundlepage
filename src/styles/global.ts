@@ -15,5 +15,6 @@ export default createGlobalStyle`
   --magenta: hsl(300, 69%, 71%);
 }
 
+
 `;
 
