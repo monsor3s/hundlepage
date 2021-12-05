@@ -19,7 +19,9 @@ export const ContainerBox = styled.div`
     background-color: var(--violet);
 
     @media only screen and (max-width: 375px) {
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     } 
 `;
 
@@ -32,7 +34,8 @@ export const Logo = styled.img `
     grid-area: 1 / 2;
 
     @media only screen and (max-width: 375px) {
-        
+        position: relative;
+        flex-direction: flex-start;
     }
 `;
 
@@ -42,6 +45,7 @@ export const BackgroundDesk = styled.img `
     height: 100vh; 
     @media only screen and (max-width: 375px) {
         transform: rotate(270deg);
+        position: absolute;
     }
 `;
 
@@ -53,7 +57,10 @@ export const Mockups = styled.img `
     grid-area: 3 / 2;
 
     @media only screen and (max-width: 375px) {
-        
+        width: 300px;
+        height: 220px;
+        margin: 0;
+        z-index: 1;
     }
 `;
 
@@ -71,7 +78,9 @@ export const H1 = styled.h1 `
     grid-area: 3 / 3;
 
     @media only screen and (max-width: 375px) {
-        
+        font-size: 25px;
+        margin: 50px 0 0 0;
+        line-height: 35px;
     }
 `;
 
