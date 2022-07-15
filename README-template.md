@@ -2,28 +2,24 @@
 
 Essa é a solução do desafio [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). 
 
-## Table of contents
+## Índice
 
-- [Overview](#overview)
+- [Desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Meu Processo](#meu-processo)
+  - [Construído com](#construído-com)
+  - [O que eu aprendi](#o-que-eu-aprendi)
+  - [Desenvolvimento contínuo](#desenolvimento-contínuo)
+  - [Recursos úteis](#recursos-úteis)
+- [Author](#author) 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
+## Visão Geral
 
-### The challenge
+### O desafio
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
+- Os usuários devem ser capazes de vizualizar o layout ideal dependendo da tela do dispositivo.
 
 ### Screenshot
 
@@ -49,53 +45,35 @@ Users should be able to:
 - [Styled Components](https://styled-components.com/) - For styles
 
 
-### What I learned
+### O que eu aprendi
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+O uso da ferramenta FontAwesome para obter ícones para a página.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab, faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+library.add( fab, faFacebookF, faTwitter, faInstagram )
+
+const fbLookup: IconLookup = { prefix: 'fab', iconName: 'facebook-f' }
+const ttLookup: IconLookup = { prefix: 'fab', iconName: 'twitter' }
+const instLookup: IconLookup = { prefix: 'fab', iconName: 'instagram' }
+
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
+### Desenvolvimento contínuo
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-### Useful resources
+### Recursos úteis
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Responsividade](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Responsive_Design) - Artigo que me ajudou sobre a responsividade da página.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+## Autor
 
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@monsor3s](https://www.frontendmentor.io/profile/monsor3s)
 - Linkedln - [@Linkedln](https://www.linkedin.com/in/marlon-monsores-380408b2/)
+- Frontend Mentor - [@monsor3s](https://www.frontendmentor.io/profile/monsor3s)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
