@@ -1,8 +1,8 @@
-# Frontend Mentor - Testimonials grid section solution
+# 💻 Frontend Mentor - Testimonials grid section solution
 
 Essa é a solução do desafio [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). 
 
-## Índice
+##  🧵 Índice
 
 - [Desafio](#o-desafio)
   - [Screenshot](#screenshot)
@@ -15,7 +15,7 @@ Essa é a solução do desafio [Huddle landing page with a single introductory s
 - [Author](#author) 
 
 
-## Visão Geral
+## 👓 Visão Geral
 
 ### O desafio
 
@@ -27,12 +27,12 @@ Essa é a solução do desafio [Huddle landing page with a single introductory s
 
 
 
-### Links
+### 🖇 Links
 
 - [Solução URL](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 - [Live Site URL](https://monsor3s.github.io/hundlepage/)
 
-## Meu Processo
+## 📊 Meu Processo
 
 ### Construído com
 
@@ -45,7 +45,7 @@ Essa é a solução do desafio [Huddle landing page with a single introductory s
 - [Styled Components](https://styled-components.com/) - For styles
 
 
-### O que eu aprendi
+### 📝 O que eu aprendi
 
 O uso da ferramenta FontAwesome para obter ícones para a página.
 
@@ -61,9 +61,9 @@ const instLookup: IconLookup = { prefix: 'fab', iconName: 'instagram' }
 
 ```
 
-### Desenvolvimento contínuo
+###  Desenvolvimento contínuo
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Use esta seção para delinear as áreas nas quais você deseja continuar focando em projetos futuros. Estes podem ser conceitos com os quais você ainda não está completamente confortável ou técnicas que você achou úteis que você deseja refinar e aperfeiçoar.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
@@ -71,7 +71,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Responsividade](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Responsive_Design) - Artigo que me ajudou sobre a responsividade da página.
 
-## Autor
+##  🙋🏻‍♂️ Autor
 
 - Linkedln - [@Linkedln](https://www.linkedin.com/in/marlon-monsores-380408b2/)
 - Frontend Mentor - [@monsor3s](https://www.frontendmentor.io/profile/monsor3s)
