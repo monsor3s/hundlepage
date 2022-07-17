@@ -1,46 +1,93 @@
-# Getting Started with Create React App
+# 💻 Frontend Mentor - Huddle landing page with a single introductory section
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img src="./src/assets/logo.svg"/>
+<h1>
 
-## Available Scripts
+Essa é a solução do desafio [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). 
 
-In the project directory, you can run:
+##  🧵 Índice
 
-### `yarn start`
+- [Desafio](#o-desafio)
+  - [Screenshot](#screenshot)
+  - [Links](#🖇-links)
+  - [Como Contribuir](#♻-como-contribuir)
+  - [Meu Processo](#meu-processo)
+  - [Construído com](#🛠-construído-com)
+  - [O que eu aprendi](#📝-o-que-eu-aprendi)
+- [Autor](#🙋🏻‍♂️-autor) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## O desafio
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Os usuários devem ser capazes de vizualizar o layout ideal dependendo da tela do dispositivo.
 
-### `yarn test`
+###  Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./src/assets/screenshotREADME.gif)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🖇 Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [URL do desafio](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
+- [URL Solução](https://monsor3s.github.io/hundlepage/)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ♻ Como Contribuir
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  # Clone the project
+  $ git clone https://github.com/monsor3s/hundlepage.git
+```
+```bash
+  # Enter directory
+  $ cd hundlepage
+```
+```bash
+  # Install the dependencies, if use npm
+  $ npm install
+  $ npm install --save styled-components
+  $ npm install --save @fortawesome/fontawesome-free
+```
+<p align="center">or<p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  # Install the dependencies, if use yarn
+  $ yarn install
+  $ yarn add styled-components
+  $ yarn add @fortawesome/fontawesome-free
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Meu Processo
 
-## Learn More
+### 🛠 Construído com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox)
+- [CSS Grid](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout)
+- [Design Responsivo](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+### 📝 O que eu aprendi
+
+O uso da ferramenta FontAwesome para obter ícones para a página.
+
+```js
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab, faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+library.add( fab, faFacebookF, faTwitter, faInstagram )
+
+const fbLookup: IconLookup = { prefix: 'fab', iconName: 'facebook-f' }
+const ttLookup: IconLookup = { prefix: 'fab', iconName: 'twitter' }
+const instLookup: IconLookup = { prefix: 'fab', iconName: 'instagram' }
+
+```
+
+##  🙋🏻‍♂️ Autor
+
+- Linkedln - [@Linkedln](https://www.linkedin.com/in/marlon-monsores-380408b2/)
+- Frontend Mentor - [@monsor3s](https://www.frontendmentor.io/profile/monsor3s)
+
+
